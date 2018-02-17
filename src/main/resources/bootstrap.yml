@@ -1,0 +1,14 @@
+spring:
+    # Nombre de la app:
+    application:
+        name: testcode.scandel
+    # Perfil activo:
+    profiles:
+        active: default
+    # Servicio de configuración:
+    cloud:
+        config:
+            enabled: false
+
+logging:
+    config: classpath:log4j2.xml
